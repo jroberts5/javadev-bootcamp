@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 400;
+    color: rgb(208, 208, 208);
+    line-height: 1.5em;
+    font-size: 17px; 
+    padding: 70px;
+    background-color: #1c1e20;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+li a {
+    color:rgb(199, 199, 199)
+}
+
+
+
+li a:visited {
+    color:rgb(232, 252, 227)
+}
+
+hr {
+    color:rgb(61, 61, 61)
+}
+
+
+.section-separator {
+    color:rgb(5, 108, 0)
+}
+
+table, th, td {
+    border: 0.3px solid rgb(46, 46, 46);
+    text-align: center;
+    font-size: 13px;
+    padding: 10px;
+
+  }
+
+  td a {
+      color:rgb(190, 255, 184);
+  }
+
+.course-title {
+    color: rgb(172, 255, 164);
+    font-size: 17px;
+}
+
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(0, 66, 2); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
