@@ -3,11 +3,11 @@
 body {
     font-family: 'Roboto', sans-serif;;
     font-weight: 400;
-    color: #0d1117;
+    color: rgb(208, 208, 208);
     line-height: 1.5em;
     font-size: 17px; 
     padding: 70px;
-    background-color: #1c1e20;
+    background-color: #0d1117;
 }
 a {
     text-decoration: none;
