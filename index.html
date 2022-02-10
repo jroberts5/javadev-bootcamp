@@ -17,10 +17,10 @@
         <li><a href="#java-oop">1.2 Java OOP</a></li>
         <li><a href="#first-app">1.3 <strong>Write 1st app</strong> (Java OOP)</a> </li>
         <li><a href="#webdevbasics">1.4 Web Dev Basics: HTTP protocol and basics of HTML, JavaScript, CSS, AJAX</a></li>
-        <li><a href="#mvc">1.5 MVC Pattern</a></li>
-        <li><a href="#linux">1.6 Linux</a></li>
-        <li><a href="#servlets-jsp">1.7 Web Servers, Servlets, Thymeleaf/JSP</a></li>
-        <li><a href="#databases">1.8 Databases (MySQL/Postgres)</a></li>
+        <li><a href="#linux">1.5 Linux</a></li>
+        <li><a href="#servlets-jsp">1.6 Web Servers, Servlets, Thymeleaf/JSP</a></li>
+        <li><a href="#databases">1.7 Databases (MySQL/Postgres)</a></li>
+        <li><a href="#mvc">1.8 MVC Pattern</a></li>
         <li><a href="#jdbc">1.9 JDBC</a></li>
         <li><a href="#maven">1.10 Build Tools: Maven</a></li>
         <li><a href="#servlets-jsp-videos">1.11 JSP/Servlet/JDBC Project Tutorials </a> </li>
@@ -225,36 +225,9 @@
             </tr>
           </table> <br>
           <hr>
-
-
-        <h4 id="mvc">1.5 MVC Pattern</h4>
-        <p>The main idea is that you separate data like blog posts (model) from view (HTML files) and have a controller that puts all these things together and outputs HTML files.  </p>
-        <p><strong>Model</strong> -It describes how your data looks like. It is a java class with all attributes that you will need.  </p>
-        <p><strong>View</strong> -  The view is some kind of HTML but it doesn’t contain any data, it just describes how HTML file should look like. For View layer <strong>JSP and Thymeleaf  </strong>are most popular choices with the latter one being younger and more friendly to use. </p>
-        <p><strong>Controller</strong> - This is some kind of coordinator, it receives requests, prepare data and join it with a view and as a result outputs a ready HTML file to the client</p>
-
-
-        <table>
-          <tr>
-              <th colspan="2" class="course-title">MVC</th>
-          </tr>
-          <tr>
-            <th>MVC Text Tutorial</th>
-            <th>MVC Video Tutorial</th>
-          </tr>
-          <tr>
-            <td>freeCodeCamp</td>
-            <td>YouTube</td>
-          </tr>
-          <tr>
-            <td><a target="_blank" href="https://www.freecodecamp.org/news/the-model-view-controller-pattern-mvc-architecture-and-frameworks-explained/">Link to Reading</a></td>
-            <td><a target="_blank" href="https://www.youtube.com/watch?v=DUg2SWWK18I">Link to Video</a></td>
-          </tr>
-        </table> <br>
-        <hr>
     
     
-        <h4 id="linux">1.6 Linux</h4>
+        <h4 id="linux">1.5 Linux</h4>
         <p>Learning the command line will be super important with programming so knowing the basics will go a long way. In the case for Java, we'll soon learn Apache which will is based on Linux.</p>
         <table>
           <tr>
@@ -277,7 +250,7 @@
            <hr>
 
 
-        <h4 id="servlets-jsp">1.7 Servlets, Thymeleaf/JSP</h4>
+        <h4 id="servlets-jsp">1.6 Servlets, Thymeleaf/JSP</h4>
         <p>When a user enters a URL and hits enter a new <strong>HTTP request</strong> is made. This request goes to webserver on which your application is hosted. Then your <strong>webserver</strong> passes this request to the appropriate <strong>Servlet</strong>. In Servlet you can call your database to retrieve your data (model) and then return the view name to which the model should be binded. Then your model will be joined with a view and the response will be returned. </p>
 
         <p><strong>Servlet</strong>-  It is an entry point to every HTTP request in Java app, no matter if you use Spring or not (this is something that Spring also uses under the hood).</p>
@@ -287,11 +260,10 @@
               <th colspan="4" class="course-title">JSP and Servlets</th>
           </tr>
           <tr>
-            <th>JSP Text Tutorial</th>
-            <th>JSP Video Tutorial</th>
-
             <th>Servlets Tutorial</th>
             <th>Servlets Video</th>
+            <th>JSP Text Tutorial</th>
+            <th>JSP Video Tutorial</th>
           </tr>
           <tr>
             <td>dotnettutorials</td>
@@ -300,10 +272,10 @@
             <td>YouTube</td>
           </tr>
           <tr>
-            <td><a target="_blank" href="https://dotnettutorials.net/lesson/java-server-pages/">Link to Tutorial</a></td>
-            <td><a target="_blank" href="https://www.youtube.com/playlist?list=PLEAQNNR8IlB588DQvb2wbKFQh2DviPApl">Link to Video</a></td>
             <td><a target="_blank" href="https://dotnettutorials.net/course/java-servlets-tutorials/">Link to Tutorial</a></td>
             <td><a target="_blank" href="https://www.youtube.com/watch?v=TrfqKn6vzAI">Link to Video</a></td>
+            <td><a target="_blank" href="https://dotnettutorials.net/lesson/java-server-pages/">Link to Tutorial</a></td>
+            <td><a target="_blank" href="https://www.youtube.com/playlist?list=PLEAQNNR8IlB588DQvb2wbKFQh2DviPApl">Link to Video</a></td>
           </tr>
         </table> <br>
     
@@ -328,7 +300,7 @@
         </table> <br>
         <hr>
 
-        <h4 id="databases">1.8 Databases</h4>
+        <h4 id="databases">1.7 Databases</h4>
         <p>To have a dynamic site we need to have storage for our data so we could save this data and read it at any point in time. For this, we need to have a database and know how to connect to it. Make sure that you understand basic DB concepts like ACID, SQL vs NOSQL, transactions, secondary indexes, joins.</p>
        
         <p><strong>MySQL</strong> - Choose one database type and learn the basics about it. I recommend choosing a relational database, either MySQL or Postgres. Common relational database common in job offers.</p>
@@ -360,6 +332,33 @@
         </table> <br>
 
         <hr>
+   
+        <h4 id="mvc">1.8 MVC Pattern</h4>
+        <p>The main idea is that you separate data like blog posts (model) from view (HTML files) and have a controller that puts all these things together and outputs HTML files.  </p>
+        <p><strong>Model</strong> -It describes how your data looks like. It is a java class with all attributes that you will need.  </p>
+        <p><strong>View</strong> -  The view is some kind of HTML but it doesn’t contain any data, it just describes how HTML file should look like. For View layer <strong>JSP and Thymeleaf  </strong>are most popular choices with the latter one being younger and more friendly to use. </p>
+        <p><strong>Controller</strong> - This is some kind of coordinator, it receives requests, prepare data and join it with a view and as a result outputs a ready HTML file to the client</p>
+
+
+        <table>
+          <tr>
+              <th colspan="2" class="course-title">MVC</th>
+          </tr>
+          <tr>
+            <th>MVC Text Tutorial</th>
+            <th>MVC Video Tutorial</th>
+          </tr>
+          <tr>
+            <td>freeCodeCamp</td>
+            <td>YouTube</td>
+          </tr>
+          <tr>
+            <td><a target="_blank" href="https://www.edureka.co/blog/mvc-architecture-in-java/">Link to Article</a></td>
+            <td><a target="_blank" href="https://www.youtube.com/watch?v=mtZdybMV4Bw">Link to Video</a></td>
+          </tr>
+        </table> <br>
+        <hr>
+    
 
         <h4 id="jdbc">1.9 JDBC</h4>
 
@@ -739,11 +738,11 @@
             <th>Design Patterns Video Tutorial</th>
           </tr>
           <tr>
-            <td>Refactoring.guru</td>
+            <td>Edureka</td>
             <td>YouTube</td>
           </tr>
           <tr>
-            <td><a target="_blank" href="https://refactoring.guru/design-patterns/java">Link to Tutorial</a></td>
+            <td><a target="_blank" href="https://www.edureka.co/blog/java-design-patterns/">Link to Tutorial</a></td>
             <td><a target="_blank" href="https://www.youtube.com/playlist?list=PLt4nG7RVVk1h9lxOYSOGI9pcP3I5oblbx">Link to Playlist</a></td>
           </tr>
         </table> <br>
