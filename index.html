@@ -15,15 +15,16 @@
     <ul>
         <li><a href="#core-java">1.1 Core Java</a></li>
         <li><a href="#java-oop">1.2 Java OOP</a></li>
-        <li><a href="#webdevbasics">1.3 Web Dev Basics: HTTP protocol and basics of HTML, JavaScript, CSS, AJAX</a></li>
-        <li><a href="#mvc">1.4 MVC Pattern</a></li>
-        <li><a href="#linux">1.5 Linux</a></li>
-        <li><a href="#servlets-jsp">1.6 Web Servers, Servlets, Thymeleaf/JSP</a></li>
-        <li><a href="#databases">1.7 Databases (MySQL/Postgres)</a></li>
-        <li><a href="#jdbc">1.8 JDBC</a></li>
-        <li><a href="#maven">1.9 Build Tools: Maven</a></li>
-        <li><a href="#servlets-jsp-videos">1.10 JSP/Servlet/JDBC Project Tutorials </a> </li>
-        <li><a href="#first-app">1.11 <strong>Write 1st app</strong> (Servlets + JDBC + MySql/Postgres + JSP/Thymleaf)</a> </li>
+        <li><a href="#second-app">1.3 <strong>Write 1st app</strong> (Java OOP)</a> </li>
+        <li><a href="#webdevbasics">1.4 Web Dev Basics: HTTP protocol and basics of HTML, JavaScript, CSS, AJAX</a></li>
+        <li><a href="#mvc">1.5 MVC Pattern</a></li>
+        <li><a href="#linux">1.6 Linux</a></li>
+        <li><a href="#servlets-jsp">1.7 Web Servers, Servlets, Thymeleaf/JSP</a></li>
+        <li><a href="#databases">1.8 Databases (MySQL/Postgres)</a></li>
+        <li><a href="#jdbc">1.9 JDBC</a></li>
+        <li><a href="#maven">1.10 Build Tools: Maven</a></li>
+        <li><a href="#servlets-jsp-videos">1.11 JSP/Servlet/JDBC Project Tutorials </a> </li>
+        <li><a href="#second-app">1.12 <strong>Write 2nd app</strong> (Servlets + JDBC + MySql/Postgres + JSP/Thymleaf)</a> </li>
     </ul>
 
     <h3>Part 2</h3>
@@ -39,7 +40,7 @@
       <li><a href="#spring-security-projects">2.8 Spring Security Project Tutorials</a></li>
       <li><a href="#complete-spring-boot-projects">2.9 Complete Spring Boot Project Tutorials</a></li>
       <li><a href="#git">2.10 Source Control and Git</a></li>
-      <li><a href="#second-app">2.11 <strong>Write 2nd app</strong> (Spring Boot + Hibernate/Spring Data + MySQL/Postgres + Thymeleaf/JSP)</a> </li>
+      <li><a href="#third-app">2.11 <strong>Write 3rd app</strong> (Spring Boot + Hibernate/Spring Data + MySQL/Postgres + Thymeleaf/JSP)</a> </li>
     </ul>
     <h3>Part 3</h3>
     <ul>
@@ -56,7 +57,7 @@
       <li><a href="#angular">3.11 Angular</a></li>
       <li><a href="#angular-spring">3.12 Spring Boot + Angular</a></li>
       <li><a href="#external-apis">3.13 External REST APIs</a></li>
-      <li><a href="#third-app">3.14 Write 3rd Java app (REST API + all learned technologies)</a></li>
+      <li><a href="#fourth-app">3.14 Write 4th Java app (REST API + all learned technologies)</a></li>
       <li><a href="#additional-studies">Additional Studies</a></li>
 
 
@@ -119,8 +120,12 @@
       </table> <br>
 
       <hr>
+   
+       <h4 id="first-app">🌟1.3 <strong>Write 1st app</strong> (Java OOP)</h4>
+ 
+         <p>Cement knowledge in <strong>core Java & Java OOP</strong>by creating a basic an command-line app that uses OOP.</p>
 
-    <h4 id="webdevbasics">1.3 Web dev basics</h4>
+    <h4 id="webdevbasics">1.4 Web dev basics</h4>
         <p><strong>How The Web Works</strong> -  Understand the basics of the internet and how web applications are stuctured. Know what is HTTP request or what is a static website. Know all available HTTP methods and understand the difference between them, like what is the difference between POST and GET. You should know what are request params and request body and when you can use which.</p>
 
         <table>
@@ -220,7 +225,7 @@
           <hr>
 
 
-        <h4 id="mvc">1.4 MVC Pattern</h4>
+        <h4 id="mvc">1.5 MVC Pattern</h4>
         <p>The main idea is that you separate data like blog posts (model) from view (HTML files) and have a controller that puts all these things together and outputs HTML files.  </p>
         <p><strong>Model</strong> -It describes how your data looks like. It is a java class with all attributes that you will need.  </p>
         <p><strong>View</strong> -  The view is some kind of HTML but it doesn’t contain any data, it just describes how HTML file should look like. For View layer <strong>JSP and Thymeleaf  </strong>are most popular choices with the latter one being younger and more friendly to use. </p>
@@ -247,7 +252,7 @@
         <hr>
     
     
-        <h4 id="linux">1.5 Linux</h4>
+        <h4 id="linux">1.6 Linux</h4>
         <p>Learning the command line will be super important with programming so knowing the basics will go a long way. In the case for Java, we'll soon learn Apache which will is based on Linux.</p>
         <table>
           <tr>
@@ -270,7 +275,7 @@
            <hr>
 
 
-        <h4 id="servlets-jsp">1.6 Servlets, Thymeleaf/JSP</h4>
+        <h4 id="servlets-jsp">1.7 Servlets, Thymeleaf/JSP</h4>
         <p>When a user enters a URL and hits enter a new <strong>HTTP request</strong> is made. This request goes to webserver on which your application is hosted. Then your <strong>webserver</strong> passes this request to the appropriate <strong>Servlet</strong>. In Servlet you can call your database to retrieve your data (model) and then return the view name to which the model should be binded. Then your model will be joined with a view and the response will be returned. </p>
 
         <p><strong>Servlet</strong>-  It is an entry point to every HTTP request in Java app, no matter if you use Spring or not (this is something that Spring also uses under the hood).</p>
@@ -321,7 +326,7 @@
         </table> <br>
         <hr>
 
-        <h4 id="databases">1.7 Databases</h4>
+        <h4 id="databases">1.8 Databases</h4>
         <p>To have a dynamic site we need to have storage for our data so we could save this data and read it at any point in time. For this, we need to have a database and know how to connect to it. Make sure that you understand basic DB concepts like ACID, SQL vs NOSQL, transactions, secondary indexes, joins.</p>
        
         <p><strong>MySQL</strong> - Choose one database type and learn the basics about it. I recommend choosing a relational database, either MySQL or Postgres. Common relational database common in job offers.</p>
@@ -354,7 +359,7 @@
 
         <hr>
 
-        <h4 id="jdbc">1.8 JDBC</h4>
+        <h4 id="jdbc">1.9 JDBC</h4>
 
         <p>Now you need to connect from your java app to your database. For this purpose, you will have to use something called JDBC (Java DataBase Connectivity). Please read a little bit about it but I would not dive too deep into it. </p>
         <table>
@@ -383,7 +388,7 @@
 
         <hr>
 
-        <h4 id="maven">1.9 Maven</h4>
+        <h4 id="maven">1.10 Maven</h4>
         <p>To build even a very simple web application in Java you will need some build tool that will make your life easier. It will fetch your external dependencies from the central server so you don’t have to do it manually. It will also help you to build and manage your project. Try to spend some time to understand basic concepts because you shouldn’t go to the next steps without knowing how it works.</p>
 
           <table>
@@ -407,7 +412,7 @@
           <hr>
 
 
-          <h4 id="servlets-jsp-videos">1.10 JSP/Servlet/JDBC Project Tutorials </h4>
+          <h4 id="servlets-jsp-videos">1.11 JSP/Servlet/JDBC Project Tutorials </h4>
           <p>Step-by-Step guided tutorial of completed projects. Will be helpful before creating your own project</p>
             <table>
               <th>Employee Login Form</th>
@@ -431,7 +436,7 @@
             </table> <br>
           <hr>
 
-          <h4 id="first-app">🌟1.11 Write 1st Java app (Servlets + JDBC + MySql/Postgres + JSP/Thymleaf)</h4>
+          <h4 id="second-app">🌟1.12 Write 2nd Java app (Servlets + JDBC + MySql/Postgres + JSP/Thymleaf)</h4>
   
   
           <p>Finally! Now you should be familiar with <strong>core Java, Maven, HTTP protocol, MVC Patten, Servlets, MySQL, JDBC, and JSP/Thymeleaf.</strong>That will allow us to create a very simple, “low level” dynamic website. I recommend you to create a very simple CRUD app with the mentioned technologies. Nothing complicated, as I said the purpose of this project is to show you how the simplest Java web app without any big external frameworks might be done, it’s should be as simple a possible but it should use all of the mentioned technologies and handle CRUD operations.<br> Now if you would continue extending this project by adding new features you would find that it’s getting messy and it’s harder to maintain with every new feature. I highly encourage you to do it. Try to add some features like your own, very naive auth system, or the possibility to list all books by a given author or sorting records in a table by title. You might end up (and that’s nothing bad) with some spaghetti code which you will not understand at the end. That’s why we need to learn things from Part 2.</p>
@@ -692,7 +697,7 @@
 
         <hr>
 
-        <h4 id="second-app">🌟2.11 Write 2nd Java app (Spring Boot + Hibernate/Spring Data + MySQL/Postgres + Thymeleaf/JSP)🌟</h4>
+        <h4 id="third-app">🌟2.11 Write 3rd Java app (Spring Boot + Hibernate/Spring Data + MySQL/Postgres + Thymeleaf/JSP)🌟</h4>
   
         <p>Now you know what you can improve and you can write your second project, this time with the help of Spring and Hibernate. Actually, at this point, you can create a really complex project and only your imagination is the limit. Try to use all technologies which I already mentioned. Ideally would be if you use <strong>Spring Boot, Spring Security, Spring Data, MySQL, Thymelaf</strong>. Try to make it on your own and don’t follow any tutorial. Think of what could help you/your friends or try to clone some existing apps but don’t follow step by step tutorial which creates the whole project, you have to encounter problems. The more the better. Then you have to find solutions to these problems (StackOverflow is your friend) by yourself. Don’t be afraid that your application is not aligned with all the best standards and is not perfect. You just have to do it, you need to make all these beginner’s mistakes and this is the only way to learn and improve in the future. It’s impossible to start writing good code from the beginning.</p>
 
@@ -1018,7 +1023,7 @@
   <hr>
 
 
-  <h4 id="third-app">🌟3.14 Write 3rd Java app (REST API + all learned technologies)🌟</h4>
+  <h4 id="fourth-app">🌟3.14 Write 4th Java app (REST API + all learned technologies)🌟</h4>
   <p>Now you should write an application that will be a REST API. You can create a new one from scratch or you can take a previous project and delete all views. Now you know a lot of design patterns, try to use them consciously and as many as possible in this project. You also learned about tests, don’t forget to add them as well! Also remember to apply all good REST API practices like how to structure your resources paths, what status codes you should return on different scenarios etc. There are many resources on these topics that you can find online. You can also look at how other APIs are designed, like GitHub API or Google Maps API, and try to follow their approach. Remember that this project might be a good position in your CV so do your best!.</p>
 
 
