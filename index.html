@@ -31,13 +31,16 @@
     <h3>Part 2</h3>
 
     <ul>
-      <li><a href="#jpa-hibernate">ORM, JPA, Hibernate</a></li>
-      <li><a href="#spring">Spring (Framework/MVC/Spring Boot)</a></li>
-      <li><a href="#spring-projects">Spring Project Tutorials</a></li>
+      <li><a href="#restful-web">REST API with RESTful Web Services (JAX-RS )</a></li>
+      <li><a href="#spring-framework">Spring Framework(Framework/MVC)</a></li>
+      <li><a href="#spring-mvc">Spring MVC</a></li>
+      <li><a href="#jpa-hibernate">ORM, JPA, Hibernate with Spring</a></li>
       <li><a href="#spring-data">Spring Data JPA</a></li>
-      <li><a href="#spring-data-projects">Spring MVC + Spring Data JPA Project Tutorials</a></li>
+      <li><a href="#spring-boot">Spring Boot</a></li>
+
+      <li><a href="#spring-framework">Spring Framework(Framework/MVC)</a></li>
+      <li><a href="#spring-data">Spring Data JPA</a></li>
       <li><a href="#spring-security">Spring Security</a></li>
-      <li><a href="#spring-security-projects">Spring Security Project Tutorials</a></li>
       <li><a href="#complete-spring-boot-projects">Complete Spring Boot Project Tutorials</a></li>
       <li><a href="#git">Source Control and Git</a></li>
       <li><a href="#third-app"><strong>Write 3rd app</strong> (Spring Boot + Hibernate/Spring Data + MySQL/Postgres + Thymeleaf/JSP)</a> </li>
@@ -50,10 +53,7 @@
       <li><a href="#messaging">Messaging systems and JMS</a></li>
       <li><a href="#microservices-projects">Microservices Tutorial Projects</a></li>
       <li><a href="#websockets">Websockets</a></li>
-      <li><a href="#restful-web">REST API with RESTful Web Services (JAX-RS )</a></li>
-      <li><a href="#restful-web-crud">REST Web Services API for CRUD Tutorial</a></li>
       <li><a href="#spring-rest">Spring Boot RESTful Web Services</a></li>
-      <li><a href="#spring-rest-crud">REST Web Services API for CRUD Tutorial</a></li>
       <li><a href="#angular">Angular</a></li>
       <li><a href="#angular-spring">Spring Boot + Angular</a></li>
       <li><a href="#external-apis">External REST APIs</a></li>
@@ -451,7 +451,7 @@
 
 
 
-      <h4 id="restful-web">REST API with RESTful Web Services (JAX-RS )</h4>
+      <h4 id="restful-web">2.1 REST API with RESTful Web Services (JAX-RS )</h4>
 
       <p>You should learn what is REST API, what are the requirements and what are good and bad practices. When we make a request we receive HTML code as a response. We had to declare templates for view and with the help of JSP or Thymeleaf when we will fill those templates with a model they are converted to HTML pages and returned by controller. We can change it. We can just return raw data from our java application or <strong>JSON</strong> format. Use RESTful Web Services before creating with Spring. </p>
 
@@ -472,30 +472,10 @@
           <td><a target="_blank" href="https://www.youtube.com/watch?v=N1UzS9ojuUY">Link to Video</a></td>
         </tr>
       </table> <br>
-
-
-      <hr>
-
-
-      <h4 id="restful-web-crud">REST Web Services API for CRUD Tutorial </h4>
-      <p>Practice creating a REST API that allows for crud operations.</p>
-    <table>
-        <th colspan="4" >REST Web Services CRUD API </th>
-      </tr>
-      <tr>
-        <td>Code Java</td>
-        <td>Code Java (YouTube)</td>
-      </tr>
-      <tr>
-        <td><a target="_blank" href="https://www.codejava.net/java-ee/web-services/java-crud-restful-web-services-examples-with-jersey-and-tomcat">Link to Tutorial</a></td>
-        <td><a target="_blank" href="https://www.youtube.com/watch?v=-_VPzhKJPfE">Link to Video</a></td>
-      </tr>
-    </table> <br>
-
-
+ 
     <hr>
 
-    <h4 id="spring-framework">Spring Framework</h4>
+    <h4 id="spring-framework">2.2 Spring Framework(Spring MVC)</h4>
     <p>If you want to code in Java you should learn Spring. We initially used JavaEE (JSP, JDBC etc) which we used for web apps first. Now we can learn Spring where we'll see the difference between the two.</p>
         <p><strong>Spring Framework(Core)</strong> - You should definitely use Spring Boot but I think you should not start with it. Start with Spring Core.</p>
         <table>
@@ -516,7 +496,7 @@
           </tr>
         </table> <br>
 
-        <p><strong>Spring MVC</strong> -  Next,learn Spring MVC. Spring MVC is apart of the Spring Framework</p>
+        <p><strong>Spring MVC</strong> - Next,learn Spring MVC. Spring MVC is apart of the Spring Framework</p>
         <table>
           <tr>
               <th colspan="2" class="course-title">Spring MVC</th>
@@ -534,8 +514,6 @@
             <td><a target="_blank" href="https://www.youtube.com/watch?v=g2b-NbR48Jo">Link to Video</a></td>
           </tr>
         </table> <br>
-
-        <hr>
 
         <h4 id="spring-mvc-projects">Spring MVC Project Tutorials</h4>
         <p>Step-by-Step guided tutorial of completed projects. Will be helpful before creating your own project</p>
@@ -557,7 +535,7 @@
 
           <hr>
 
-      <h4 id="jpa-hibernate">ORM, JPA, Hibernate</h4>
+      <h4 id="jpa-hibernate">2.3 ORM, JPA, Hibernate</h4>
         <p> Apart from learning Spring you have to learn Hibernate. You need to know how to create your models and what relation annotation to use so that Spring could do its magic.</p>
         <p><strong>ORM </strong>- The idea of taking java objects and mapping them to a data store. You can have a single class that will have data stored in two different tables.</p>
         <p><strong>JPA</strong>- This is a specification for ORM in Java. There might be many implementations of this specification</p>
@@ -586,7 +564,8 @@
 
         <hr>
 
-        <p><strong>Spring Data JPA</strong> - Finally learn Spring Data JPA</p>
+        <h4 id="jpa-hibernate">2.4 Spring Data</h4>
+        <p> Finally learn Spring Data JPA</p>
         <table>
           <tr>
               <th colspan="2" class="course-title">Spring Data JPA</th>
@@ -604,8 +583,6 @@
             <td><a target="_blank" href="https://www.youtube.com/watch?v=JB2f29OcciM">Link to Video</a></td>
           </tr>
         </table> <br>
-
-            <hr>
 
         <h4 id="spring-mvc-projects">Spring Data JPA Project Tutorials</h4>
         <p>Step-by-Step guided tutorial of completed projects. Will be helpful before creating your own project</p>
@@ -629,7 +606,7 @@
 
           <hr>
 
-    <h4 id="spring-framework">Spring Boot</h4>
+    <h4 id="spring-framework">2.5 Spring Boot</h4>
         <p>After learning Spring Framework, finally switch to Spring Boot. Spring Boot  was created because Spring itself is so complicated that it needed a configuration framework. You need to know that only very old, legacy apps use XML config so don’t spend too much time on this approach. Every modern app uses an annotation-based config so focus on this way on configuring your app. </p>
         <table>
           <tr>
@@ -673,7 +650,7 @@
         <hr>
 
 
-        <h4 id="spring-security">Spring Security</h4>
+        <h4 id="spring-security">2.6 Spring Security</h4>
 
         <p>Secure your Spring applications with Spring Security</p>
         <table>
@@ -693,8 +670,6 @@
             <td><a target="_blank" href="https://www.youtube.com/playlist?list=PLqq-6Pq4lTTYTEooakHchTGglSvkZAjnE">Link to Playlist</a></td>
           </tr>
         </table> <br>
-
-        <hr>
 
         <h4>Spring Security Project Tutorials</h4>
         <p>Step-by-Step guided tutorial of completed projects. Will be helpful before creating your own project</p>
@@ -717,7 +692,7 @@
 
         <hr>
 
-        <h4 id="complete-spring-boot-projects">Complete Spring Boot Projects</h4>
+        <h4 id="complete-spring-boot-projects">2.7 Complete Spring Boot Projects</h4>
 
         <p>Spring Boot Projects with Spring Security implemented</p>
         <table>
@@ -737,7 +712,7 @@
 
         <hr>
 
-        <h4 id="git">Source Control and Git</h4>
+        <h4 id="git">2.8 Source Control and Git</h4>
         <p> Knowing Git is a must-have nowadays. Don’t dive deep into it. You just need to understand the most important concepts like how to checkout new branch, how to commit changes, how to fetch changes from a remote branch, how to resolve conflicts during merge, how to push changes to the server, how to compare branches. I want you to learn git before you will jump to the next chapter because your second application should be written with it. Our second application is something that you might want to show to other people and you should use git and GitHub for this purpose.</p>
         <table>
           <tr>
@@ -759,7 +734,7 @@
 
         <hr>
 
-        <h4 id="third-app">🌟Write 3rd Java app (Spring Boot + Hibernate/Spring Data + MySQL/Postgres + Thymeleaf/JSP)🌟</h4>
+        <h4 id="third-app">🌟2.9 Write 3rd Java app (Spring Boot + Hibernate/Spring Data + MySQL/Postgres + Thymeleaf/JSP)🌟</h4>
   
         <p>Now you know what you can improve and you can write your 3rd project, this time with the help of Spring and Hibernate. Actually, at this point, you can create a really complex project and only your imagination is the limit. Try to use all technologies which I already mentioned. Ideally would be if you use <strong>Spring Boot, Spring Security, Spring Data, MySQL, Thymelaf</strong>. Try to make it on your own and don’t follow any tutorial. Think of what could help you/your friends or try to clone some existing apps but don’t follow step by step tutorial which creates the whole project, you have to encounter problems. The more the better. Then you have to find solutions to these problems (StackOverflow is your friend) by yourself. Don’t be afraid that your application is not aligned with all the best standards and is not perfect. You just have to do it, you need to make all these beginner’s mistakes and this is the only way to learn and improve in the future. It’s impossible to start writing good code from the beginning.</p>
 
