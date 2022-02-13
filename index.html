@@ -42,17 +42,17 @@
     </ul>
     <h3>Part 3</h3>
     <ul>
-      <li><a href="#design-patterns-and-ds">Design Patterns and Data Structures</a></li>
-      <li><a href="#tests">Tests</a></li>
-      <li><a href="#microservices">Microservices</a></li>
-      <li><a href="#messaging">Messaging systems and JMS</a></li>
-      <li><a href="#microservices-projects">Microservices Tutorial Projects</a></li>
-      <li><a href="#websockets">Websockets</a></li>
-      <li><a href="#spring-rest">Spring Boot RESTful Web Services</a></li>
-      <li><a href="#angular">Angular</a></li>
-      <li><a href="#angular-spring">Spring Boot + Angular</a></li>
-      <li><a href="#external-apis">External REST APIs</a></li>
-      <li><a href="#fourth-app">Write 4th Java app (REST API + all learned technologies)</a></li>
+      <li><a href="#design-patterns-and-ds">3.1 Design Patterns and Data Structures</a></li>
+      <li><a href="#tests">3.2 Tests</a></li>
+      <li><a href="#microservices">3.3 Microservices</a></li>
+      <li><a href="#messaging">3.4 Messaging systems and JMS</a></li>
+      <li><a href="#microservices-projects">3.5 Microservices Tutorial Projects</a></li>
+      <li><a href="#websockets">3.6 Websockets</a></li>
+      <li><a href="#spring-rest">3.7 Spring Boot RESTful Web Services</a></li>
+      <li><a href="#angular">3.8 Angular</a></li>
+      <li><a href="#angular-spring">3.9 Spring Boot + Angular</a></li>
+      <li><a href="#external-apis">3.10 External REST APIs</a></li>
+      <li><a href="#fourth-app">3.11 Write 4th Java app (REST API + all learned technologies)</a></li>
       <li><a href="#additional-studies">Additional Studies</a></li>
 
 
@@ -736,7 +736,7 @@
 
         <hr class="section-separator">
 
-        <h4 id="design-patterns-and-ds">Design Patterns and Data Structures</h4>
+        <h4 id="design-patterns-and-ds">3.1 Design Patterns and Data Structures</h4>
         <p>Now you should have some pretty complicated app that is full of bad practices! And that’s actually not bad, that’s not production and critical application. That’s your pet project and its purpose is to help you to learn. Now when you know all the tools and did your first mistakes you can focus on improving your code quality and architecture. For this, you need to <strong>learn Design Patterns and Data Structures.</strong></p>
 
         <p><strong>DS & Algos in Java</strong>- You should know which data structure to use when you want to retrieve an element from a collection in constant time (ArrayList) or which data structure to use when you want to have constant time for inserts (LinkedList).</p>
@@ -780,7 +780,7 @@
 
         <hr>
 
-        <h4 id="tests">Tests</h4>
+        <h4 id="tests">3.2 Tests</h4>
         <p>It is important to make sure that your features are bug-free and that when you will make changes to your code you will not break anything. That’s why you always need tests. You should know what kind of tests there are, that we have <strong>unit tests, integration tests, e2e tests…</strong> Try to study these concepts. When it comes to Java there are two must-haves: <strong>Junit and Mockito</strong>. I’m not gonna dive into these things, just google them, learn them, and remember to add tests to every project you make.</p>
 
         <table>
@@ -803,7 +803,7 @@
 
         <hr>
 
-        <h4 id="microservices">Microservices</h4>
+        <h4 id="microservices">3.3 Microservices</h4>
 
         <p>Architecture of loosely coupled services which can be developed, deployed, and maintained independently. Each of these services is responsible for discrete task and can communicate with other services through simple APIs to solve a larger complex business problem.</p>
 
@@ -827,7 +827,7 @@
 
         <hr>
 
-        <h4 id="messaging">Messaging systems and JMS</h4>
+        <h4 id="messaging">3.4 Messaging systems and JMS</h4>
 
         <p>This is something that will be not frequently used in your own small projects but it is something that most likely will be used in your job and will be required during interviews. It is applicable to big projects that need to handle a lot of traffic, usually in a micro-services architecture. It allows you to easily exchange messages asynchronously between java applications. This is so important that Java created an API for it called <strong>JMS</strong>. There are two main concepts which you need to understand: <strong> topics and queues</strong>. There are many implementations of this API, the most popular are <strong>ActiveMQ and RabbitMQ</strong>. I recommend picking one of these apis and creating two java applications that send messages through topic and queue between them. One being a producer and the second one being a consumer.</p>
 
@@ -851,7 +851,7 @@
 
         <hr>
 
-        <h4 id="microservices-projects">Microservices Projects </h4>
+        <h4 id="microservices-projects">3.5 Microservices Projects </h4>
         <p>Practice creating microservices with RabbitMQ messaging broker. Will be helpful for interviews.</p>
       <table>
           <th>Microservices with Spring Boot </th>
@@ -874,7 +874,7 @@
 
       <hr>
 
-      <h4 id="websockets">Websockets</h4>
+      <h4 id="websockets">3.6 Websockets</h4>
 
       <p>Most scenarios will be that your client (web browser or mobile app) asks your backend for data with an HTTP request. However, sometimes you might want to reverse that. Sometimes you need your server to send data to your client even though the client didn’t ask a server for it. This will be needed when you will want to create a chat application. In that case, your client should just have an active web socket connection and wait for the server until it sends something to it. Another scenario will be the implementation of some kind of notification system like you have on Facebook to notify your client whenever something happened. For all these features you will have to learn about <strong>Websockets and STOMP protocol</strong>. The good news is like almost everything it is implemented in Spring and Spring provides high-level abstraction for that.</p>
 
@@ -900,7 +900,7 @@
 
 
 
-    <h4 id="spring-rest">Spring Boot RESTful Web Services</h4>
+    <h4 id="spring-rest">3.7 Spring Boot RESTful Web Services</h4>
 
     <p>Now using Spring Boot to create REST APIs which is considerably easier and the de facto method for creating REST APIs.</p>
 
@@ -944,7 +944,7 @@
 
   <hr>
 
-  <h4 id="angular">Angular</h4>
+  <h4 id="angular">3.8 Angular</h4>
 
   <p>Angular is javascript framework for building single page applicatiosn. In the future, we will be using this to connect to the Spring backend to the Angular front-end.</p>
 
@@ -969,7 +969,7 @@
   <hr>
 
 
-  <h4 id="angular-spring">Spring Boot + Angular</h4>
+  <h4 id="angular-spring">3.9 Spring Boot + Angular</h4>
 
   <p>The Angular application which will be calling our java application and will receive json and convert that json to html view.  We separated server code from client code, we don’t need those JSP/Thymleaf templates anymore, we can just focus on raw data. In fact most web applications in Java today are REST apis without any view templates so I hope you understand how important it is to know this concept. The view layer for web apps is usually done in React/Angular and these client apps just fetch data in JSON format from java aps.</p>
 
@@ -1000,14 +1000,14 @@
   <hr>
 
 
-  <h4 id="external-apis">External REST APIs</h4>
+  <h4 id="external-apis">3.10 External REST APIs</h4>
 
   <p>The Angular application which will be calling our java application and will receive json and convert that json to html view.  We separated server code from client code, we don’t need those JSP/Thymleaf templates anymore, we can just focus on raw data. In fact most web applications in Java today are REST apis without any view templates so I hope you understand how important it is to know this concept. The view layer for web apps is usually done in React/Angular and these client apps just fetch data in JSON format from java aps.</p>
 
   <hr>
 
 
-  <h4 id="fourth-app">🌟Write 4th Java app (REST API + all learned technologies)🌟</h4>
+  <h4 id="fourth-app">3.11 🌟Write 4th Java app (REST API + all learned technologies)🌟</h4>
   <p>Now you should write an application that will be a REST API. You can create a new one from scratch or you can take a previous project and delete all views. Now you know a lot of design patterns, try to use them consciously and as many as possible in this project. You also learned about tests, don’t forget to add them as well! Also remember to apply all good REST API practices like how to structure your resources paths, what status codes you should return on different scenarios etc. There are many resources on these topics that you can find online. You can also look at how other APIs are designed, like GitHub API or Google Maps API, and try to follow their approach. Remember that this project might be a good position in your CV so do your best!.</p>
 
 
